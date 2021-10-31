@@ -64,7 +64,7 @@ void printMap() {
 						HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 						SetConsoleTextAttribute(hConsole, 199);
 						printf("%c", 196);
-						HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+						hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 						SetConsoleTextAttribute(hConsole, 7);
 					}
 					else printf("%c", 196);
